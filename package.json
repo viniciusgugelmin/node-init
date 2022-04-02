@@ -1,0 +1,24 @@
+{
+  "name": "node-init",
+  "version": "1.0.0",
+  "description": "4fun project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "casino": "cd src/projects/casino && node ./index.js",
+    "intern-job": "cd src/projects/intern-job && node ./index.js",
+    "my-first-server": "cd src/projects/my-first-server && npx nodemon ./index.js",
+    "holydayzer": "cd src/projects/holydayzer && npx nodemon ./index.js",
+    "weather-forecast": "cd src/projects/weather-forecast && npx nodemon ./index.js",
+    "stopwatch": "cd src/projects/stopwatch && npx nodemon ./index.js",
+    "todo-list": "cd src/projects/todo-list && npx nodemon ./index.js"
+  },
+  "author": "Vinícius Gugelmin",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "rimraf": "^3.0.2"
+  }
+}
