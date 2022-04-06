@@ -11,14 +11,17 @@
     "holydayzer": "cd src/projects/holydayzer && npx nodemon ./index.js",
     "weather-forecast": "cd src/projects/weather-forecast && npx nodemon ./index.js",
     "stopwatch": "cd src/projects/stopwatch && npx nodemon ./index.js",
-    "todo-list": "cd src/projects/todo-list && npx nodemon ./index.js"
+    "todo-list": "cd src/projects/todo-list && npx nodemon ./index.js",
+    "recipes": "cd src/projects/recipes && npx nodemon ./index.js"
   },
   "author": "Vinícius Gugelmin",
   "license": "MIT",
   "dependencies": {
     "chalk": "^5.0.1",
     "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
     "express": "^4.17.3",
+    "mongodb": "^4.5.0",
     "rimraf": "^3.0.2"
   }
 }

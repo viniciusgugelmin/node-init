@@ -40,10 +40,11 @@
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![Nodejs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-%23F05033.svg?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
 ### Usage
 
-Requires Node.js, npm, and nodemon.
+Requires Node.js, MongoDB, npm, and nodemon.
 
 ```bash
 $ git clone https://github.com/viniciusgugelmin/node-init
